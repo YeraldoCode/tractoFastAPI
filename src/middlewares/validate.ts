@@ -1,5 +1,4 @@
 import { Request, Response, NextFunction } from 'express';
-import { userSchema } from '../validators/user.validator';
 import { ZodSchema } from 'zod';
 
 export function validateUser( schema: ZodSchema<any>) {
